@@ -1,0 +1,68 @@
+/**********
+* Variables
+***********/
+//Defining varaibles for different Screen sizes
+@screen-xs: 480px;
+@screen-sm: 768px;
+@screen-xs-max: 767px;
+@screen-979: 979px;
+@screen-md: 992px;
+@screen-lg: 1200px;
+@screen-vlg: 1400px;
+
+
+/************************
+* Common Styles
+*************************/
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	#wrapper{
+		margin:0 10%;
+		width:80%;
+		#header-top{
+			width:78%;	
+			height:30px;
+			border:1px solid #d6d6d6;
+			border-width:1px;
+			border-radius:0 0 10px 10px;
+			padding:5px 0 5px 10px;
+			position:fixed;
+			font-size:12px;
+			font-weight:bold;
+			
+			background: -moz-linear-gradient(top,  rgba(245,246,246,1) 0%, rgba(219,220,226,1) 21%, rgba(221,223,227,1) 80%, rgba(245,246,246,1) 100%); /* FF3.6+ */
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(245,246,246,1)), color-stop(21%,rgba(219,220,226,1)), color-stop(80%,rgba(221,223,227,1)), color-stop(100%,rgba(245,246,246,1))); /* Chrome,Safari4+ */
+			background: -webkit-linear-gradient(top,  rgba(245,246,246,1) 0%,rgba(219,220,226,1) 21%,rgba(221,223,227,1) 80%,rgba(245,246,246,1) 100%); /* Chrome10+,Safari5.1+ */
+			background: -ms-linear-gradient(top,  rgba(245,246,246,1) 0%,rgba(219,220,226,1) 21%,rgba(221,223,227,1) 80%,rgba(245,246,246,1) 100%); /* IE10+ */
+
+			.links{
+				height:30px;
+				line-height:30px;
+				float:left;
+				a{
+					display:inline;
+					padding: 0 8px 0 11px;
+					color:#666;
+					border-left:1px solid #625D5D;
+					text-decoration:none;
+				}
+			}
+			.links a:first-child{
+				border-left:none;
+			}
+			.welcome{
+				color:#666;
+				line-height:30px;
+				float:right;
+				margin-right:15px;
+				a{
+					text-decoration:none;
+					color:#666;
+					cursor:pointer;
+				}
+			}
+		}
+	}
+	
+}
+
