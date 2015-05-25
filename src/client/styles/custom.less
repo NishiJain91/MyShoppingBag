@@ -10,30 +10,33 @@
 @screen-lg: 1200px;
 @screen-vlg: 1400px;
 
+.panel-background{
+	background: -moz-linear-gradient(top,  rgba(245,246,246,1) 0%, rgba(219,220,226,1) 21%, rgba(221,223,227,1) 80%, rgba(245,246,246,1) 100%); /* FF3.6+ */
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(245,246,246,1)), color-stop(21%,rgba(219,220,226,1)), color-stop(80%,rgba(221,223,227,1)), color-stop(100%,rgba(245,246,246,1))); /* Chrome,Safari4+ */
+			background: -webkit-linear-gradient(top,  rgba(245,246,246,1) 0%,rgba(219,220,226,1) 21%,rgba(221,223,227,1) 80%,rgba(245,246,246,1) 100%); /* Chrome10+,Safari5.1+ */
+			background: -ms-linear-gradient(top,  rgba(245,246,246,1) 0%,rgba(219,220,226,1) 21%,rgba(221,223,227,1) 80%,rgba(245,246,246,1) 100%); /* IE10+ */
+}
+
+
 
 /************************
 * Common Styles
 *************************/
 body{
-	font-family:Arial, Helvetica, sans-serif;
 	#wrapper{
 		margin:0 10%;
 		width:80%;
-		#header-top{
-			width:78%;	
-			height:30px;
+		#header-top{	
+			height:37px;
 			border:1px solid #d6d6d6;
 			border-width:1px;
 			border-radius:0 0 10px 10px;
 			padding:5px 0 5px 10px;
-			position:fixed;
+			margin-top:5px;
 			font-size:12px;
 			font-weight:bold;
 			
-			background: -moz-linear-gradient(top,  rgba(245,246,246,1) 0%, rgba(219,220,226,1) 21%, rgba(221,223,227,1) 80%, rgba(245,246,246,1) 100%); /* FF3.6+ */
-			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(245,246,246,1)), color-stop(21%,rgba(219,220,226,1)), color-stop(80%,rgba(221,223,227,1)), color-stop(100%,rgba(245,246,246,1))); /* Chrome,Safari4+ */
-			background: -webkit-linear-gradient(top,  rgba(245,246,246,1) 0%,rgba(219,220,226,1) 21%,rgba(221,223,227,1) 80%,rgba(245,246,246,1) 100%); /* Chrome10+,Safari5.1+ */
-			background: -ms-linear-gradient(top,  rgba(245,246,246,1) 0%,rgba(219,220,226,1) 21%,rgba(221,223,227,1) 80%,rgba(245,246,246,1) 100%); /* IE10+ */
+			.panel-background;
 
 			.links{
 				height:30px;
@@ -62,7 +65,128 @@ body{
 				}
 			}
 		}
-	}
-	
+		#header{
+			height: 80px;
+			margin:7px 0;
+			img{
+				width:80px;
+				vertical-align:middle;
+				border-radius:50px;
+			}
+			span{
+				font-size:21px;
+			}
+			#search{
+				float:right;
+				position: relative;			
+				i{
+					position: absolute;
+					padding: 10px 12px;
+					font-size:14px;
+					top:17px;
+					right:17px;	
+				}							
+				input{
+					padding-right: 30px;
+					width:237px;
+					margin-right:20px;
+					margin-top:20px;
+					height:28px;
+					border:1px solid #d6d6d6;
+					border-radius:10px;
+					padding-left:10px;
+
+					background: -moz-linear-gradient(top,  rgba(238,238,238,1) 0%, rgba(238,238,238,1) 100%); /* FF3.6+ */
+					background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(238,238,238,1))); /* Chrome,Safari4+ */
+					background: -webkit-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(238,238,238,1) 100%); /* Chrome10+,Safari5.1+ */
+					background: -ms-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(238,238,238,1) 100%); /* IE10+ */
+
+				}
+			}			
+		}
+
+		#menu{
+			height:50px;
+			border-radius:25px;
+			width:100%;
+			background: -moz-linear-gradient(top,  rgba(208,228,247,1) 0%, rgba(83,159,225,1) 100%, rgba(115,177,231,1) 100%, rgba(135,188,234,1) 100%); /* FF3.6+ */
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(208,228,247,1)), color-stop(100%,rgba(83,159,225,1)), color-stop(100%,rgba(115,177,231,1)), color-stop(100%,rgba(135,188,234,1))); /* Chrome,Safari4+ */
+			background: -webkit-linear-gradient(top,  rgba(208,228,247,1) 0%,rgba(83,159,225,1) 100%,rgba(115,177,231,1) 100%,rgba(135,188,234,1) 100%); /* Chrome10+,Safari5.1+ */
+			background: -ms-linear-gradient(top,  rgba(208,228,247,1) 0%,rgba(83,159,225,1) 100%,rgba(115,177,231,1) 100%,rgba(135,188,234,1) 100%); /* IE10+ */
+
+			ul{
+				list-style:none;
+				li{
+					display:list-item;
+					float:left;
+					margin-top:12px;
+					font-size:15px;
+					font-weight:bold;
+					width:150px;
+					a{
+						display:inline;
+						text-decoration:none;
+						color:white;
+						padding-left:50px;
+
+					}
+				}				
+			}
+
+		}
+
+		#myCarousel{
+			height:400px;
+			margin-top:5px;
+			position:relative;
+			left:40px;
+			width:920px;
+			img{
+				height:400px;
+				width:650px;
+				position:relative;
+				left:120px;
+			}
+		}		
+	}	
 }
 
+.box{
+	margin-top:10px;
+	.box-heading{
+		.panel-background;
+		border-radius: 10px 10px 0 0;
+		border:1px solid #d6d6d6;
+		padding:10px 15px 10px 35px;
+		font-size:15px;
+		font-weight:bold;
+
+	}
+	.box-content{
+		background:#ffffff;
+		border-radius:0 0 10px 10px;
+		border:1px solid #d6d6d6;
+		border-width:0 1px 1px 1px;
+		padding:10px;
+
+		.box-product{
+			overflow:auto;
+			.image img{
+				width:97px;
+			}
+			.name a{
+				color:#222;
+				font-weight:bold;
+				text-decoration:none;
+				margin-bottom:4px;
+				font-size:13px;
+			}
+			.price{
+				font-weight:bold;
+				color:#333333;
+				margin-bottom:4px;
+			}
+		}
+	}
+
+}
