@@ -1,0 +1,91 @@
+<div id="product-info">
+  <h1>{{product.name}}</h1>
+  <div id="content">
+    <div class="product clearfix">
+        <div class="left col-sm-5 col-xs-6">
+          <div class="product-img">
+            <img ng-src="{{product.img}}">
+          </div>
+        </div>
+        <div class="right col-sm-6 col-xs-12">
+          <div class="description options">
+            <dl class="clearfix">          
+              <dt class="col-sm-6">Brand: </dt>
+              <dd class="col-sm-6">{{product.brand}}</dd>
+                 
+              <dt class="col-sm-6">Product Code: </dt>
+              <dd class="col-sm-6">{{product.id}}</dd>
+                     
+              <dt class="col-sm-6">Availability: </dt>
+              <dd class="col-sm-6">In stock</dd>
+            </dl>
+
+          </div>
+          <div class="price options">
+            <dl class="clearfix">          
+              <dt class="col-sm-6">Price: </dt>
+              <dd class="col-sm-6">{{product.price}}</dd>
+            </dl>
+          </div>
+          <div class="cart options">
+            <dl class="clearfix">          
+              <dt class="col-sm-6">Add to Cart:</dt>
+              <dd class="col-sm-6"><input type="checkbox"></dd>
+
+              <dt class="col-sm-6">Add to WishList:</dt>
+              <dd class="col-sm-6"><input type="checkbox"></dd>
+
+              <dt class="col-sm-6">Add to Compare:</dt>
+              <dd class="col-sm-6"><input type="checkbox"></dd>
+            </dl>            
+          </div>
+          <div class="reviews options">
+            <dl class="clearfix">
+              <dt class="col-sm-6">Select Size:</dt>
+              <dd class="col-sm-6">
+                <div class="form-group">
+                  <select class="form-control" id="sel1">
+                    <option>XS</option>
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                    <option>XL</option>
+                    <option>2XL</option>
+                    <option>3XL</option>
+                  </select>
+                </div>
+              </dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+      <div id="tabs" smart-jqui-tabs>
+        <ul>
+          <li>
+              <a href="#tabs-a">Description</a>
+          </li>
+          <li>
+              <a href="#tabs-b">Reviews</a>
+          </li>
+        </ul>
+        <div id="tabs-a">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </p>
+          <div ng-repeat="(key,value) in product.ProductInfo">
+            <dl class="clearfix">
+              <dt class="col-sm-6">{{key}}</dt>
+              <dd class="col-sm-6">
+                {{value}}
+              </dd>
+            </dl>
+          </div>
+        </div>
+        <div id="tabs-b">
+          <p>
+           Review Tab
+          </p>
+        </div>
+    </div>
+  </div>
+</div>

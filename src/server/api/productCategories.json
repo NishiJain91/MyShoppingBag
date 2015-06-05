@@ -1,0 +1,130 @@
+{
+	"Category":[
+		{
+			"name":"Women",
+			"Products":[
+				{
+					"name":"NEW IN",
+					"subcategory":["New in Clothing","New in Shoes","New in Bags","New in Watches"]
+				},
+				{
+					"name":"CLOTHING",
+					"subcategory":["Dresses","Tops,Tees & Shirts","Tunics","Trousers & Jeans","Shrugs & Skirts"]	
+				},
+				{
+					"name":"ETHNIC WEAR",
+					"subcategory":["Kurtas & Kurtis","Suits Sets","Sarees & Dress Material"]
+				},
+				{
+					"name":"BAGS",
+					"subcategory":["HandBags","Sling Bags","Totes","Wallets"]
+				},
+				{
+					"name":"SHOES",
+					"subcategory":["Flats","Bellies","Sandals","Heels","Wedges"]
+				}
+			]
+		},
+		{
+			"name":"Men",
+			"Products":[
+				{
+					"name":"NEW IN",
+					"subcategory":["New in Clothing","New in Shoes","New in Bags","New in Watches"]
+				},
+				{
+					"name":"CLOTHING",
+					"subcategory":["Casual Shirts","Polo Tees","Casual Jeans","Tees","TrackWear","Casuals"]	
+				},
+				{
+					"name":"WATCHES",
+					"subcategory":["Analog","Chronograph","Digital","Watch Cases"]
+				},
+				{
+					"name":"BAGS",
+					"subcategory":["Wallets","Office Bags","Laptop Bags","Bag Packs"]
+				},
+				{
+					"name":"SUNGLASSES",
+					"subcategory":["Aviators","Wayfarers"]
+				}
+			]
+		},
+		{
+			"name":"Kids",
+			"Products":[
+				{
+					"name":"NEW IN",
+					"subcategory":["New in Clothing","New in Shoes","New in Bags","New in Watches"]
+				},
+				{
+					"name":"CLOTHING",
+					"subcategory":["Casual Shirts","Polo Tees","Casual Jeans","Tees","TrackWear","Casuals"]	
+				},
+				{
+					"name":"WATCHES",
+					"subcategory":["Analog","Chronograph","Digital","Watch Cases"]
+				},
+				{
+					"name":"BAGS",
+					"subcategory":["Wallets","Office Bags","Laptop Bags","Bag Packs"]
+				},
+				{
+					"name":"SUNGLASSES",
+					"subcategory":["Aviators","Wayfarers"]
+				}
+			]
+		},
+		{
+			"name":"Home",
+			"Products":[
+				{
+					"name":"NEW IN",
+					"subcategory":["New in Clothing","New in Shoes","New in Bags","New in Watches"]
+				},
+				{
+					"name":"CLOTHING",
+					"subcategory":["Casual Shirts","Polo Tees","Casual Jeans","Tees","TrackWear","Casuals"]	
+				},
+				{
+					"name":"WATCHES",
+					"subcategory":["Analog","Chronograph","Digital","Watch Cases"]
+				},
+				{
+					"name":"BAGS",
+					"subcategory":["Wallets","Office Bags","Laptop Bags","Bag Packs"]
+				},
+				{
+					"name":"SUNGLASSES",
+					"subcategory":["Aviators","Wayfarers"]
+				}
+			]
+		},
+		{
+			"name":"Sports",
+			"Products":[
+				{
+					"name":"NEW IN",
+					"subcategory":["New in Clothing","New in Shoes","New in Bags","New in Watches"]
+				},
+				{
+					"name":"CLOTHING",
+					"subcategory":["Casual Shirts","Polo Tees","Casual Jeans","Tees","TrackWear","Casuals"]	
+				},
+				{
+					"name":"WATCHES",
+					"subcategory":["Analog","Chronograph","Digital","Watch Cases"]
+				},
+				{
+					"name":"BAGS",
+					"subcategory":["Wallets","Office Bags","Laptop Bags","Bag Packs"]
+				},
+				{
+					"name":"SUNGLASSES",
+					"subcategory":["Aviators","Wayfarers"]
+				}
+			]
+		}
+
+	]
+}

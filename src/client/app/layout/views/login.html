@@ -1,0 +1,107 @@
+<div id="account">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close" ng-click="ok()">
+      <span aria-hidden="true">&times;</span>
+    </button>
+    <h1> <strong>Account Login</strong>
+    </h1>
+  </div>
+  <div class="modal-body clearfix">
+    <div id="login-content" class="account-details clearfix">
+      <div class="left col-sm-5">
+        <h5> <strong>New Customer</strong>
+        </h5>
+        <div class="content col-sm-11">
+          <p> <b>Register Account</b>
+          </p>
+          <p>
+            By creating an account you will be able to shop faster, be up to date on an order's status, and keep track of the orders you have previously made.
+          </p>
+
+          <a href="" class="btn btn btn-primary">
+            Continue
+            <span class="glyphicon glyphicon-forward"></span>
+          </a>
+        </div>
+      </div>
+      <div class="right col-sm-6 col-xs-11">
+        <div class="well no-padding">
+          <form action="#/dashboard" id="login-form" class="smart-form client-form"  data-smart-validate-form>
+            <header>
+              <h6>Sign In</h6>
+            </header>
+            <fieldset>
+              <section>
+                <label class="label"> <b>E-mail</b>
+                </label>
+                <label class="input"> <i class="icon-append fa fa-user"></i>
+                  <input type="email" name="email"
+                                 data-smart-validate-input
+                                 data-required
+                                 data-email
+                                 data-message-required="Please enter your email address"
+                                 data-message-email="Please enter a VALID email address">
+                  <b class="tooltip tooltip-top-right"><i class="fa fa-user txt-color-teal"></i>
+                    Please enter email address/username</b> 
+                </label>
+              </section>
+              <section>
+                <label class="label">
+                  <b>Password</b>
+                </label>
+                <label class="input">
+                  <i class="icon-append fa fa-lock"></i>
+                  <input type="password" name="password"
+                                data-smart-validate-input
+                                data-required
+                                data-minlength="3"
+                                data-maxnlength="20"
+                                data-message="Please enter your email password">
+                  <b class="tooltip tooltip-top-right"><i class="fa fa-lock txt-color-teal"></i>
+                    Enter
+                              your password</b> 
+                </label>
+
+                <div class="note">
+                  <a ui-sref="forgotPassword">Forgot password?</a>
+                </div>
+              </section>
+              <section>
+                <label class="checkbox">
+                  <input type="checkbox" name="remember" checked>
+                  <i></i>
+                  Stay signed in
+                </label>
+              </section>
+            </fieldset>
+            <footer>
+              <button type="submit" class="btn btn-primary">Sign in</button>
+            </footer>
+          </form>
+        </div>
+        <h5 class="text-center">- Or sign in using -</h5>
+        <ul class="list-inline text-center">
+          <li>
+            <a href-void class="btn btn-primary btn-circle">
+              <i class="fa fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href-void class="btn btn-info btn-circle">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href-void class="btn btn-warning btn-circle">
+              <i class="fa fa-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="modal-footer">
+    <button class="btn btn-primary" ng-click="ok()">OK</button>
+    <button class="btn btn-warning" ng-click="cancel()">Cancel</button>
+  </div>
+</div>

@@ -1,0 +1,18 @@
+<aside id="column-left" class="hidden-xs">
+    <div class="box">
+    <span class="box-header">FILTER PRODUCTS BY</span>
+    <div ng-repeat="filter in filters">
+		<div class="box-heading">{{filter.name}}</div>
+		<div class="box-content">
+      <ul>
+        <li ng-repeat="option in filter.options">
+          <label>
+            <input type="checkbox">
+            {{option}}
+          </label>
+        </li>
+      </ul>  
+    </div>
+    </div>
+	</div>	
+</aside>

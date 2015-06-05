@@ -1,0 +1,43 @@
+{
+	"1111":{
+		"id":"1111",
+		"name":"Sling Bag",
+		"img":"images/latest/sling-bag.jpg",
+		"price":"Rs.1200",
+		"Category":"Bags",
+		"SplTag":["Featured","Latest"],
+		"ProductInfo":{
+			"color":"Blue",
+			"Fabric":"Crepe",
+			"Length":"26 inches",
+			"No. of pockets":"3"
+		},
+		"Rating":"5",
+		"discount":"25%",
+		"brand":"Baggit",
+		"item_count":"3",
+		"rating":"4"
+	},
+
+	"1112":{
+		"id":"1112",
+		"name":"Sling Bag",
+		"img":"images/featured/sling-bag2.jpg",
+		"price":"Rs.1200",
+		"Category":"Bags",
+		"SplTag":["Featured"],
+		"ProductInfo":{
+			"color":"Blue",
+			"Fabric":"Crepe",
+			"Length":"26 inches",
+			"No. of pockets":"3"			
+		},
+		"Rating":"5",
+		"discount":"25%",
+		"brand":"Baggit",
+		"item_count":"2",
+		"rating":"3"
+	}
+	
+}
+

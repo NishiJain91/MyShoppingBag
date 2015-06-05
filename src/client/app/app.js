@@ -13,7 +13,9 @@ define([
 		'ui.router',
     'ui.bootstrap',
     'scs.couch-potato',
-    'app.layout'
+    'app.layout',
+    'app.product',
+    'app.auth'
     ]);
 
 	couchPotato.configureApp(app);

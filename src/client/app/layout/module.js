@@ -13,18 +13,21 @@ define(['angular',
 
 			$stateProvider
 				.state('app',{
+          url:"/shopping_cart",
 					abstract:true,
 					views:{
 						root:{
-							templateUrl:'app/layout/views/home.html'
+							templateUrl:'app/layout/views/home.html',
+              controller:'LayoutCtrl'
 						}
 					}
 				})
-				.state('app.shopcart',{
-					url:"/shopping_cart",
-					templateUrl:'app/layout/views/shopcart_products.html'
+				.state('app.shopcart',{	
+          url:"/home",				
+					templateUrl:'app/layout/views/shopcart_products.html',
 				});
-        $urlRouterProvider.otherwise('/shopping_cart');
+        
+        $urlRouterProvider.otherwise('/shopping_cart/home');
 		});
 
     module.run(function ($couchPotato) {

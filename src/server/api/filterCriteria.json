@@ -1,0 +1,43 @@
+{
+	"Criteria":[
+		{
+			"name":"COLORS",
+			"options":["Black","Blue","Pink","Red","White",
+			"Green","Yellow","Olive","Orange","Multi","Golden",
+			"Maroon","Peach","Magenta","Beige","Brown","Off White",
+			"Coffee","Grey","Purple","Navy Blue","Silver"
+			]
+		},
+		{
+			"name":"DISCOUNTS",
+			"options":["Non-Discounted Items",
+			"Discounted Items"
+			]
+		},
+		{
+			"name":"OCCASION",
+			"options":["Party","Casual","Ethnic","Casual Wear","Work","Occasion Wear"]
+		},
+		{
+			"name":"STYLE",
+			"options":["Printed","Solid","Embroidered","Embellished","Striped","Checked"]
+		},
+		{
+			"name":"SLEEVE",
+			"options":["Sleeveless","Half Sleeves","Full Sleeves","Cap Sleeves","Puff Sleeves"]
+		},
+		{
+			"name":"SIZE",
+			"options":["XXS","XS","S","M","L","XL","XXL","3XL","4XL","FREE SIZE"]
+		},
+		{
+			"name":"OFFERS",
+			"options":["20% OFF on limited brands Use Code:SNW20","30% OFF on Rs.999,Use Code:MORE30",
+			"Buy 2 get 40% OFF","Upto 40% Discount on selected items"]
+		},
+		{
+			"name":"PRICE",
+			"options":["Below Rs.500","Rs.500-Rs.999","Rs.1000-Rs.1499","Rs.1500-Rs.1999","Rs.2000-Rs.2999","Above Rs.2999"]
+		}
+	]
+}

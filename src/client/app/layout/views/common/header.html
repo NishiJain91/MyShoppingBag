@@ -1,12 +1,42 @@
 <div id="header-top">
   <div class="links">
-    <a href="">HOME</a>
+    <a href="#/shopping_cart">HOME</a>
     <a href="">WISHLIST</a>
     <a href="">MY ACCOUNT</a>
     <a href="">CHECKOUT</a>
     <a href="">SHOPPING CART</a>
   </div>
   <div class="welcome">
-  <span>Welcome Visitor,<a href=""> LOGIN or</a><a href=""> CREATE AN ACCOUNT</a></span>
+  <span>Welcome Visitor,<a type="button" ng-click="openModal('login')"> LOGIN or</a><a type="button" ng-click="openModal('signup')"> CREATE AN ACCOUNT</a></span>
   </div>
 </div>
+<div id="header">
+  <img src="images/shopping_cart_icon.jpg" alt="" style="vertical-align:middle;">
+  <span>My Shopping Bag</span>
+   <div class="right-inner-addon" id="search">
+      <i class="glyphicon glyphicon-search"></i> <input type="search" class="form-control"
+        placeholder="Search" />
+    </div>
+</div>
+<div id="menu" class="btn-group">
+  <ul class="clearfix">
+    <li class="col-sm-3 dropdown dropdown-large" ng-repeat="category in categories">
+      <a type="button" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+        {{category.name}}
+        <span class="caret"></span>
+      </a>
+      <ul class="dropdown-menu dropdown-menu-large" role="menu">
+        <li class="col-sm-3" ng-repeat="product in category.Products">
+          <ul>
+            <li class="dropdown-header">{{product.name}}</li>
+            <li ng-repeat="subcategory in product.subcategory">
+              <a href="">{{subcategory}}</a>
+            </li>
+          </ul>
+        </li>
+      </ul> 
+    </li>
+  </ul>
+</div>
+
+
