@@ -1,10 +1,11 @@
 {
-	"1111":{
-		"id":"1111",
+	"BagSl1":{
+		"id":"BagSl1",
 		"name":"Sling Bag",
-		"img":"images/latest/sling-bag.jpg",
+		"img":"images/allProducts/Bags/SlingBags/sling-bag.jpg",
 		"price":"Rs.1200",
 		"Category":"Bags",
+		"SubCategory":"Sling Bag",
 		"SplTag":["Featured","Latest"],
 		"ProductInfo":{
 			"color":"Blue",
@@ -19,12 +20,13 @@
 		"rating":"4"
 	},
 
-	"1112":{
-		"id":"1112",
+	"BagSl2":{
+		"id":"BagSl2",
 		"name":"Sling Bag",
-		"img":"images/featured/sling-bag2.jpg",
+		"img":"images/allProducts/Bags/SlingBags/sling-bag2.jpg",
 		"price":"Rs.1200",
 		"Category":"Bags",
+		"SubCategory":"Sling Bag",
 		"SplTag":["Featured"],
 		"ProductInfo":{
 			"color":"Blue",
@@ -35,6 +37,216 @@
 		"Rating":"5",
 		"discount":"25%",
 		"brand":"Baggit",
+		"item_count":"2",
+		"rating":"3"
+	},
+
+	"WDR1":{
+		"id":"WDR1",
+		"name":"Party Dress",
+		"img":"images/allProducts/women/partydress/dress(1).jpg",
+		"price":"Rs.2200",
+		"Category":"Women",
+		"SubCategory":"Dresses",
+		"SplTag":["Featured"],
+		"ProductInfo":{
+			"color":"Blue",
+			"Fabric":"Nylon",
+			"Length":"26 inches"			
+		},
+		"Rating":"5",
+		"discount":"25%",
+		"brand":"Arrow",
+		"item_count":"2",
+		"rating":"3"
+	},
+	"WDR2":{
+		"id":"WDR2",
+		"name":"Party Dress",
+		"img":"images/allProducts/women/partydress/dress (2).jpg",
+		"price":"Rs.2500",
+		"Category":"Women",
+		"SubCategory":"Dresses",
+		"SplTag":["Featured"],
+		"ProductInfo":{
+			"color":"Blue",
+			"Fabric":"Nylon",
+			"Length":"26 inches"			
+		},
+		"Rating":"5",
+		"discount":"25%",
+		"brand":"Arrow",
+		"item_count":"2",
+		"rating":"3"
+	},
+	"WDR3":{
+		"id":"WDR3",
+		"name":"Party Dress",
+		"img":"images/allProducts/women/partydress/dress(3).jpg",
+		"price":"Rs.2200",
+		"Category":"Women",
+		"SubCategory":"Dresses",
+		"SplTag":["Featured"],
+		"ProductInfo":{
+			"color":"Blue",
+			"Fabric":"Nylon",
+			"Length":"26 inches"			
+		},
+		"Rating":"5",
+		"discount":"25%",
+		"brand":"Arrow",
+		"item_count":"2",
+		"rating":"3"
+	},
+	"WDR4":{
+		"id":"WDR4",
+		"name":"Party Dress",
+		"img":"images/allProducts/women/partydress/dress(4).jpg",
+		"price":"Rs.2200",
+		"Category":"Women",
+		"SubCategory":"Dresses",
+		"SplTag":["Featured"],
+		"ProductInfo":{
+			"color":"Blue",
+			"Fabric":"Nylon",
+			"Length":"26 inches"			
+		},
+		"Rating":"5",
+		"discount":"25%",
+		"brand":"Arrow",
+		"item_count":"2",
+		"rating":"3"
+	},
+	"WDR5":{
+		"id":"WDR5",
+		"name":"Party Dress",
+		"img":"images/allProducts/women/partydress/dress(5).jpg",
+		"price":"Rs.2200",
+		"Category":"Women",
+		"SubCategory":"Dresses",
+		"SplTag":["Featured"],
+		"ProductInfo":{
+			"color":"Blue",
+			"Fabric":"Nylon",
+			"Length":"26 inches"			
+		},
+		"Rating":"5",
+		"discount":"25%",
+		"brand":"Arrow",
+		"item_count":"2",
+		"rating":"3"
+	},
+	"WDR6":{
+		"id":"WDR6",
+		"name":"Party Dress",
+		"img":"images/allProducts/women/partydress/dress(6).jpg",
+		"price":"Rs.2200",
+		"Category":"Women",
+		"SubCategory":"Dresses",
+		"SplTag":["Featured"],
+		"ProductInfo":{
+			"color":"Blue",
+			"Fabric":"Nylon",
+			"Length":"26 inches"			
+		},
+		"Rating":"5",
+		"discount":"25%",
+		"brand":"Arrow",
+		"item_count":"2",
+		"rating":"3"
+	},
+	"WDR7":{
+		"id":"WDR7",
+		"name":"Party Dress",
+		"img":"images/allProducts/women/partydress/dress(7).jpg",
+		"price":"Rs.2200",
+		"Category":"Women",
+		"SubCategory":"Dresses",
+		"SplTag":["Featured"],
+		"ProductInfo":{
+			"color":"Blue",
+			"Fabric":"Nylon",
+			"Length":"26 inches"			
+		},
+		"Rating":"5",
+		"discount":"25%",
+		"brand":"Arrow",
+		"item_count":"2",
+		"rating":"3"
+	},
+	"WDR8":{
+		"id":"WDR8",
+		"name":"Party Dress",
+		"img":"images/allProducts/women/partydress/dress(8).jpg",
+		"price":"Rs.2200",
+		"Category":"Women",
+		"SubCategory":"Dresses",
+		"SplTag":["Featured"],
+		"ProductInfo":{
+			"color":"Blue",
+			"Fabric":"Nylon",
+			"Length":"26 inches"			
+		},
+		"Rating":"5",
+		"discount":"25%",
+		"brand":"Arrow",
+		"item_count":"2",
+		"rating":"3"
+	},
+	"WDR9":{
+		"id":"WDR9",
+		"name":"Party Dress",
+		"img":"images/allProducts/women/partydress/dress(9).jpg",
+		"price":"Rs.2200",
+		"Category":"Women",
+		"SubCategory":"Dresses",
+		"SplTag":["Featured"],
+		"ProductInfo":{
+			"color":"Blue",
+			"Fabric":"Nylon",
+			"Length":"26 inches"			
+		},
+		"Rating":"5",
+		"discount":"25%",
+		"brand":"Arrow",
+		"item_count":"2",
+		"rating":"3"
+	},
+	"WDR10":{
+		"id":"WDR10",
+		"name":"Party Dress",
+		"img":"images/allProducts/women/partydress/dress(10).jpg",
+		"price":"Rs.2200",
+		"Category":"Women",
+		"SubCategory":"Dresses",
+		"SplTag":["Featured"],
+		"ProductInfo":{
+			"color":"Blue",
+			"Fabric":"Nylon",
+			"Length":"26 inches"			
+		},
+		"Rating":"5",
+		"discount":"25%",
+		"brand":"Arrow",
+		"item_count":"2",
+		"rating":"3"
+	},
+	"WDR11":{
+		"id":"WDR11",
+		"name":"Party Dress",
+		"img":"images/allProducts/women/partydress/dress(11).jpg",
+		"price":"Rs.2200",
+		"Category":"Women",
+		"SubCategory":"Dresses",
+		"SplTag":["Featured"],
+		"ProductInfo":{
+			"color":"Blue",
+			"Fabric":"Nylon",
+			"Length":"26 inches"			
+		},
+		"Rating":"5",
+		"discount":"25%",
+		"brand":"Arrow",
 		"item_count":"2",
 		"rating":"3"
 	}

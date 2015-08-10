@@ -9,7 +9,11 @@
     "requirejs": "~2.1.17",
     "less": "~2.5.0",
     "domReady": "~2.0.1",
-    "angular-bootstrap": "~0.13.0"
+    "angular-bootstrap": "~0.13.0",
+    "jquery-ui": "~1.11.4",
+    "masonry": "~3.3.0",
+    "jquery-maskedinput": "~1.4.1",
+    "jquery-validation": "~1.13.1"
   },
   "resolutions": {
     "jquery": "2.1.1",

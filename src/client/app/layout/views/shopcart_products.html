@@ -14,7 +14,7 @@
     <div class="box-product col-sm-2 " ng-repeat="product in categ.products">
       <div class="well well-sm txt-color-black text-center">
         <div class="image">
-          <a href="">
+          <a ng-href="#/shopping_cart/product/{{product.id}}">
             <img ng-src="{{product.img}}" alt="img1"></a>
         </div>
         <div class="name">
